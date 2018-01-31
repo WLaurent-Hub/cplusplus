@@ -6,12 +6,11 @@
 
 int main()
 {
-	double r1;
-	r1 = exo1(10.0);
+	exo5(350);
+
 
     // Affichage sur un terminal
     std::cout << "Hello World!" << std::endl;
 
     return 0;
 }
-
