@@ -71,6 +71,14 @@ std:: cin.get();
 
 
 }
+void exo4(void);
+void exo5(void)
+{
+	short j1 = 0;
+	short j2 = 0;
+	if 
+
+}
 	
 #endif // MY_HEADER_HPP
 
