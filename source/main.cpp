@@ -6,11 +6,8 @@
 
 int main()
 {
-	exo5(350);
-
-
-    // Affichage sur un terminal
-    std::cout << "Hello World!" << std::endl;
+	exo1();
+	exo2();
 
     return 0;
 }
