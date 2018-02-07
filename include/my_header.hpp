@@ -28,7 +28,19 @@ void exo2(void)
 		if (n < 0)
 			fac = 0;
 }
+int essayer_code(unsigned short code);
+void exo3(void)
+{
+	unsigned short code = 0;
 
+	int a = essayer_code(code);
+
+	while (a == 0)
+	{
+		code = code + 1;
+		a = essayer_code(code);
+	}
+}
 
 #endif // MY_HEADER_HPP
 
