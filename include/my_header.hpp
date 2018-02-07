@@ -41,7 +41,37 @@ void exo3(void)
 		a = essayer_code(code);
 	}
 }
+unsigned short lancer_de(void);
+void exo4(void)
+{
+std:: cin.get();
+	unsigned short i = 0;
+	short b = 0;
+	while (i != 1)
+	{ 
+		i = lancer_de();
+		if (i % 2 == 0)
+			b = b + i;
+		else
+			if (i == 3)
+				b = b * 2;
+			else
+				if (i == 5)
+					b = 0;
 
+
+ 	}
+
+
+	std:: cout << "La valeur de n est:"
+		       << b
+		       << std::endl;
+
+		       
+
+
+}
+	
 #endif // MY_HEADER_HPP
 
 
